@@ -1,0 +1,120 @@
+.main{
+    background-image: url('https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1887&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.data{
+    color: red;
+}
+.box{
+    margin-left: 800px;
+    margin-top: -800px;
+    box-sizing: border-box ;
+    border-style: dashed;
+    width: fit-content;
+    color: red;
+    background-color: aquamarine;
+
+}
+.offer{
+    padding: 50px;
+    margin-top: 500px;
+    margin-left: 300px;
+    border-style: solid;
+    border-color: red;
+    width: 200px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+}
+.details{
+    box-sizing:content-box;
+    margin: 100px;
+    border-block-end-width: 10px;
+    padding: 30px;
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+    border-style: solid;
+    border-color: red;
+    /* display: inline; */
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    border-radius: 28px;
+    
+}
+.thali{
+    padding-top: 52px;
+    /* padding: 22px; */
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    border: grey solid 4px;
+    border-radius: 157px;
+    height: 216px;
+    width: 266px;
+    background: cyan;
+    margin: 84px;
+    position: relative;
+}
+.forms{
+    position: absolute;
+    right: 430px;
+    top: 216px;
+    border: dashed red 6px;
+    height: 608px;
+    width: 320px;
+    background: white;
+    color: crimson;
+    margin: 2px -79px 2px 2px;
+    padding: 10px 5px 2px 4px;
+    text-align: center;
+}
+.two{
+    height: 50px;
+    margin-top: 395px;
+    border: 10px solid crimson;
+    background: black;
+    color: white;
+    border-radius: 28px;
+    width: 402px;
+    text-align: center;
+    font-style: italic;
+    font-size: bold;
+    padding-top: 15px;
+    position: absolute;
+    right: 546px;
+    top: 851px;
+}
+.menu{
+    font-size: large;
+    margin-top: 519px;
+    margin-left: 100px;
+    height: 264px;
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid;
+    border-color: green;
+    background-color: cyan;
+    border-radius: 20px;
+    color: rebeccapurple;
+    margin-top: 0px;
+    margin-right: 120px;
+    margin-bottom: 200px;
+}
+.parent{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.line{
+    font-size: x-large;
+    font-display: bold;
+}
